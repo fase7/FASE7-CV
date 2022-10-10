@@ -24,7 +24,7 @@ border-radius: 50%;}
 .head li {margin: 10px;color: aliceblue;font-size:20px;padding-top:10px ;}
 .About p {background-color: rgba(0, 0, 0, 0.608);
     color: aliceblue;text-shadow:5px black ;
-padding: 30px;margin: auto;text-align: justify;width:80% ;font-size:25px ;}
+padding: 30px;margin: auto;text-align: justify;width:90% ;font-size:25px ;}
 .pers ul {list-style-type: none;
     background-color: rgba(0, 0, 0, 0.608);
     color: aliceblue;
@@ -145,8 +145,8 @@ html {
     }
     @media (max-width:767px)
     {
-
-        .pers{font-size:10px ;}
+         .about{font-size:5px}
+        .pers{font-size:5px ;}
     }
     @media (min-width:923px)
     {
