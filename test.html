@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d89dd51039.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+ <meta thnp-equiv="X-UAcompatible"content="IE=device,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head" >
+        <ul id="hh">
+            <li><a href="#about">About</a></li>
+            <li><a href="#pers"> Personal-Info</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#cart">certification</a></li>
+        </ul>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="profile">
+        <img src="me.jpg" alt="" class="pic">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="About">
+        <h2 id="about">About</h2>
+        <p>It's <span style="color: rgb(173, 5, 47);font-weight: bold;"> Mohamed Faseh</span>. A sophomore student of
+             Mechanical Engineering major with 
+            passion towards computer science and its aspects.
+             Interested in Web Development and Competitive 
+             Programming
+             . Worked on variety of interesting projects 
+             with other 
+             colleagues gaining experience and skills of 
+             teamwork, 
+             prioritizing,
+             delegation and meeting deadlines.</p>
+    </div>
+    <br>
+    <br>
+    <h2 id="pers">Personal Info</h2><br>
+    <div class="pers">
+        
+        <div class="special">
+            
+            <ul>
+                
+                <li><i class="fa-solid fa-hashtag"> </i> Name : Mohame Faseh</li><br>
+                <li><i class="fa-solid fa-calendar-days"></i> Age : 21years</li><br>
+                <li><i class="fa-solid fa-location-dot">  </i> :Giza-Egypt<br></li><br>
+                <li><i class="fa-solid fa-building-columns">  </i>:cairo University Faculty Of Engineering</li><br>
+            </ul>
+
+        </div>
+        <div class="educ">
+            <h2>Contact Us</h2>
+            
+            <ul>
+                <li> <i class="fa-solid fa-phone">  </i>  : 01146219066<br></li><br>
+                <li><i class="fa-solid fa-envelope">  </i>  :mfaseh818@gmail.com<br></li><br>
+                
+
+                
+            </ul>
+        </div>        
+        </div>
+        <br>
+        <br>
+        <div class="skills">
+            <h2 id="skill">SKILLS</h2>
+        <ul>
+            <li><img src="photoshop.png" ></li>
+            <li><img src="premiere-pro.png" ></li>
+            <li><img src="after-effects.png"></li>
+            <li><img src="css-3.png" ></li>
+            <li><img src="html-5.png"></li>
+            <li><img src="c-.png" ></li>
+            <li><img src="c-sharp.png"></li>
+        </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="certification">
+            <h2 id="cart">Certifications</h2><br>
+            <div class="slideshow-container">
+    
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="udacity new.jpg" style="width:100%; height:80%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="Html new.jpg" style="width:100%; height:80%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="tccd new.jpg" style="width:100%; height:80%">
+                  <div class="text"></div>
+                </div>
+                
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+        </div>
+           
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+            <!-- <div class="social">
+                <ul>
+                    <li> <a href="https://www.facebook.com/mohamed.faseh.39/" target="_blank"><i class="fa-brands fa-facebook fa-2x" style="text-decoration:none;"></i></a></li>
+                    <li> <a href="https://www.instagram.com/m.faseh_official/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+                    <li> <a href="https://twitter.com/Fase7M" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+                    <li> <a href="https://www.linkedin.com/in/mohamed-faseh-b7a666250/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a></li>
+                </ul>
+            </div> -->
+</body>
+</html>
