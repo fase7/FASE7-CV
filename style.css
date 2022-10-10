@@ -145,8 +145,8 @@ html {
     }
     @media (max-width:767px)
     {
-         .about{font-size:5px}
-        .pers{font-size:5px ;}
+         .about{font-size:2px}
+        .pers{font-size:2px ;}
     }
     @media (min-width:923px)
     {
