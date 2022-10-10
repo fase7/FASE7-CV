@@ -30,7 +30,7 @@ padding: 30px;margin: auto;text-align: justify;width:80% ;font-size:25px ;}
     color: aliceblue;
     padding: 30px;
     margin: auto;
-    text-align: justify;width:80% ;
+    text-align: justify;width:90% ;
     border-left:2px solid white ;
     font-size:25px ;
     
@@ -39,7 +39,7 @@ padding: 30px;margin: auto;text-align: justify;width:80% ;font-size:25px ;}
 .educ{margin: auto;}
 h2{color: aliceblue;text-align: center ;text-decoration: underline;
    font-size:25px ;font-weight: bold; }
-.skills ul{display: flex;list-style-type: none;width:80% ;height: auto;
+.skills ul{display: flex;list-style-type: none;width:90% ;height: auto;
     background-color: rgba(0, 0, 0, 0.608);
     color: aliceblue;
     margin: auto;
@@ -143,10 +143,10 @@ html {
 
         .certification{height:10% ;}
     }
-    @media (max-width:304px)
+    @media (max-width:767px)
     {
 
-        .pers{font-size:5px ;}
+        .pers{font-size:10px ;}
     }
     @media (min-width:923px)
     {
