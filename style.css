@@ -2,7 +2,7 @@ body{background-image: url(wallpaperflare.com_wallpaper\ \(8\).jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-attachment: fixed;
-background-size: cover;
+background-size:contain
 font-family:monospace
 Font-size{3px}
 }
