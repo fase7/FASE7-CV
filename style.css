@@ -132,7 +132,7 @@ html {
     @media (min-width:372px)
     {
 
-        .head li{margin: auto;}
+        .head li{margin: auto;font-size:2px: display:inline}
     }
     @media (max-width:844px)
     {
