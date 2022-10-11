@@ -134,9 +134,9 @@ html {
     {
 
         .pic{width:25% ;height:25% ;}
-        .pers ul{width:85%;font:15px}
-        .About p{width:85%;font:15px}
-        .skills ul {width:85%;font:15px}
+        .pers ul{width:85%;font:35px}
+        .About p{width:85%;font:35px}
+        .skills ul {width:85%;font:35px}
         .head li{font-size:35px;margin:auto}
     }
 
