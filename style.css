@@ -1,6 +1,8 @@
 
     body{background-image: url(wallpaperflare.com_wallpaper\ \(8\).jpg)
-   ; background-repeat: no-repeat;
+   ; background-repeat: no-repeat;background-position:center;
+  background-attachment:fixed; 
+  background-size: cover;
            
 font-family:monospace;
 }
