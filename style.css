@@ -153,6 +153,7 @@ html {
     }
     @media (max-width:521px)
     {
+        .head li{font-size:2px;margin:auto}
 
         .certification{height:10% ;}
     }
