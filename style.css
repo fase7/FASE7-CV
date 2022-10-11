@@ -1,15 +1,8 @@
 body{background-image: url(1104574.png);
 body { 
-    background-image: url(/assets/img/living.jpg); 
+    body{background-image: url(wallpaperflare.com_wallpaper\ \(8\).jpg)
     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height:100%;
-    width:100%; 
+   
 }   
 font-family:monospace;
 Background-width:100%;
@@ -177,17 +170,5 @@ html {
     {
 
        i{size:20% }
-    }
-@media (min-width:1257px)
-    {
-        body{background-image: url(wallpaperflare.com_wallpaper\ \(8\).jpg);background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height:100%;
-    width:100%; }
     }
 
