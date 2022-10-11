@@ -18,11 +18,11 @@ Font-size:2px;
 
 a{color: rgba(240, 248, 255, 0.684);border-bottom:1px solid white ;text-decoration: none;}
 a:hover{color: white;text-decoration: none;}
-.pic{height:200px ;width:200px ;
+.pic{height:180px ;width:180px ;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 50%;
     border:5px solid white ;
 outline:5px solid black  ;
 border-radius: 50%;}
@@ -154,7 +154,7 @@ html {
     }
     @media (max-width:521px)
     {
-        .head li{font-size:2px;margin:auto}
+        .head li{font-size:0.5px;margin:auto}
 
         .certification{height:10% ;}
     }
