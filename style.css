@@ -1,4 +1,4 @@
-body{background-image: url(wallpaperflare.com_wallpaper\ \(8\).jpg);
+body{background-image: url(1104574.png);
 body { 
     background-image: url(/assets/img/living.jpg); 
     background-repeat: no-repeat; 
@@ -27,7 +27,7 @@ outline:5px solid black  ;
 border-radius: 50%;}
 .head ul{display: flex;flex-wrap: wrap;
     list-style-type: none;background-color: rgba(13, 57, 152, 0)
-    ;width:95%  ;margin: auto;;
+    ;width:95%  ;
 }
 .head li :hover{background-color: rgb(0, 163, 87);}
 .head li {margin: auto;color: aliceblue;font-size:15px;padding-top:10px ;}
@@ -178,5 +178,16 @@ html {
 
        i{size:20% }
     }
-
+@media (min-width:1257px)
+    {
+        body{background-image: url(wallpaperflare.com_wallpaper\ \(8\).jpg);background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%; }
+    }
 
