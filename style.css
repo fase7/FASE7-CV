@@ -1,11 +1,10 @@
 body{background-image: url(1104574.png);
 body { 
     body{background-image: url(wallpaperflare.com_wallpaper\ \(8\).jpg)
-    background-repeat: no-repeat;
+   ; background-repeat: no-repeat;
         background-position:center;
   background-attachment:fixed; 
-  background-size: cover;
-}   
+  background-size: cover;   
 font-family:monospace;
 Background-width:100%;
 }
