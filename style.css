@@ -13,7 +13,6 @@ body {
 }   
 font-family:monospace;
 Background-width:100%;
-Font-size:2px;
 }
 
 a{color: rgba(240, 248, 255, 0.684);border-bottom:1px solid white ;text-decoration: none;}
@@ -31,7 +30,7 @@ border-radius: 50%;}
     ;width:95%  ;margin: auto;;
 }
 .head li :hover{background-color: rgb(0, 163, 87);}
-.head li {margin: 10px;color: aliceblue;font-size:8px;padding-top:10px ;}
+.head li {margin: 8px;color: aliceblue;font-size:8px;padding-top:10px ;}
 .About p {background-color: rgba(0, 0, 0, 0.608);
     color: aliceblue;text-shadow:5px black ;
 padding: 30px;margin: auto;text-align: center;width:100% ;font-size:25px ;}
@@ -145,7 +144,7 @@ html {
     @media (min-width:372px)
     {
 
-        .head li{margin: auto;font-size:2px: display:inline}
+       
     }
     @media (max-width:844px)
     {
@@ -154,7 +153,7 @@ html {
     }
     @media (max-width:521px)
     {
-        .head li{font-size:0.5px;margin:auto}
+      
 
         .certification{height:10% ;}
     }
