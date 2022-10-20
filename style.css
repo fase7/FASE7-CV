@@ -27,7 +27,7 @@ border-radius: 50%;}
 .head li {margin: auto;color: aliceblue;font-size:15px;padding-top:10px ;}
 .About p {background-color: rgba(0, 0, 0, 0.608);
     color: aliceblue;text-shadow:5px black ;
-padding: 30px;margin: auto;text-align: center;width:100% ;font-size:25px ;}
+padding: 30px;margin: auto;text-align: justify;width:100% ;font-size:25px ;font-family:Mono;}
 .pers ul {list-style-type: none;
     background-color: rgba(0, 0, 0, 0.608);
     color: aliceblue;
